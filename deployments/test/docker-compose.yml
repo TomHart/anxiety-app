@@ -5,4 +5,4 @@ services:
         image: docker-registry.tom-hart-dev.co.uk/anxiety-app:latest
         container_name: anxiety_app
         ports:
-            - "10080:85"
+            - "10080:8080"
