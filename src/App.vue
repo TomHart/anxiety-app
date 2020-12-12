@@ -10,7 +10,7 @@
 
 		<div class="h-full flex flex-col justify-around" v-else>
 			<h1 class="text-5xl">Well done!</h1>
-			<p class="text-2xl">You're done great. You've gotten all of that off your chest, doesn't that feel better?</p>
+			<p class="text-2xl">You've done great. You've gotten all of that off your chest, doesn't that feel better?</p>
 			<p class="text-2xl">Remember, you're allowed to be happy, and allowed to relax, and you don't need to worry about anything</p>
 		</div>
 	</div>
