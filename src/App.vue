@@ -28,7 +28,7 @@ export default {
 		return {
 			step: 0,
 			steps: [
-				'What are you thinking?',
+				'What are you thinking right now?',
 				"What's your evidence that supports that thought?",
 				"Now, what evidence do you have that doesn't support that thought?",
 				'What is an alternative balanced though?',
