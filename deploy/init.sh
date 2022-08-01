@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-echo "Image-Name: " "$(params.image-name)"
+echo "Image-Name: " "$image_name"
