@@ -1,0 +1,21 @@
+replicaCount: 2
+
+image:
+  repository: registry.tom-hart.net/anxiety-app
+  tag: "$TAG"
+  port: 8080
+
+service:
+  type: ClusterIP
+  port: 8080
+
+imagePullSecrets:
+  - name: regcred
+
+ingress:
+  enabled: true
+  hosts:
+    - host: $HOST
+      paths:
+        - path: /
+          pathType: Prefix
